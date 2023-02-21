@@ -1,7 +1,6 @@
 import React from 'react';
-import renderCard from '../card';
+import renderCard from '../renderCard';
 //import styles from '../../styles/'
-
 export default function Blog() {
   return (
     <div>
@@ -11,7 +10,7 @@ export default function Blog() {
       </p>
 
         <div className='card'>
-          <renderCard/>
+          <renderCard />
         </div>
     </div>
   );
