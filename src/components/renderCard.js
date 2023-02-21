@@ -71,6 +71,7 @@ const createCard = () => {
     </Card>
   );
 }
+//maps through each element in the array and generated the html content for the cards
 return <div className="grid">{cardInfo.map(RenderCard)}</div>;
 
 }

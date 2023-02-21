@@ -4,10 +4,12 @@ import CreateCard from '../RenderCard';
 export default function Blog() {
   return (
     <div>
-      <h1>Portfolio page</h1>
-      <p>
-        Welcome to my portfolio page ☺️
-      </p>
+      <div className="portfolio-banner">
+          <h1>Portfolio page</h1>
+          <p>
+            Welcome to my portfolio page ☺️
+          </p>
+      </div>
 
           <CreateCard />
       
