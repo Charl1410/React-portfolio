@@ -1,4 +1,5 @@
 import React from 'react';
+//import styles from '../../styles/'
 
 export default function Blog() {
   return (
@@ -7,6 +8,10 @@ export default function Blog() {
       <p>
         portfolio pageeeee
       </p>
+
+        <div className='card'>
+          
+        </div>
     </div>
   );
 }

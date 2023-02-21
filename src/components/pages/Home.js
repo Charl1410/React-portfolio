@@ -5,7 +5,6 @@ export default function AboutMe() {
     <div>
       <h1>About me title</h1>
       <p>
-        
         I am cool
       </p>
     </div>
