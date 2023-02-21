@@ -6,7 +6,7 @@ export default function Blog() {
     <div>
       <h1>Portfolio page</h1>
       <p>
-        portfolio pageeeee
+        Welcome to my portfolio page ☺️
       </p>
 
           <CreateCard />

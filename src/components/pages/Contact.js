@@ -1,12 +1,13 @@
 import React from 'react';
+import FormGenerate from '../FormGenerate'
 
 export default function Contact() {
   return (
     <div>
       <h1>Contact Page</h1>
-      <p>
-        There will be a form here 
-      </p>
+      
+        <FormGenerate />
+      
     </div>
   );
 }

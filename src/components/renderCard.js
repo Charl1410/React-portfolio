@@ -28,6 +28,12 @@ const createCard = () => {
       title: "Note taking application",
       text: "back end application using express to create routes in an e-commerce product tracker ",
     },
+    {
+      image: "https://d3n817fwly711g.cloudfront.net/uploads/2014/07/Basic-org-chart-1-1024x738.png",
+      gitHub: "https://github.com/Charl1410/team-profile-gen",
+      title: "Team profile generator",
+      text: "Front end application that generates HTML cards for indivuals entered through inquirer",
+    },
 
 
   ]
@@ -35,7 +41,7 @@ const createCard = () => {
 
  function RenderCard(card, index) {
   return (
-    <Card style={{ width: '18rem' }} key={index}>
+    <Card key={index}>
       <Card.Img variant="top" src={card.image} />
       <Card.Body>
         <Card.Title>{card.title}</Card.Title>
