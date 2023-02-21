@@ -1,5 +1,5 @@
 import React from 'react';
-import RenderCard from '../RenderCard';
+import CreateCard from '../RenderCard';
 //import styles from '../../styles/'
 export default function Blog() {
   return (
@@ -9,7 +9,7 @@ export default function Blog() {
         portfolio pageeeee
       </p>
 
-          <RenderCard />
+          <CreateCard />
       
     </div>
   );
