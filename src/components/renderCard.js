@@ -34,6 +34,24 @@ const createCard = () => {
       title: "Team profile generator",
       text: "Front end application that generates HTML cards for indivuals entered through inquirer",
     },
+    {
+      image: "https://cdn-icons-png.flaticon.com/512/2471/2471610.png",
+      gitHub: "https://github.com/Charl1410/Password-Generator",
+      title: "Password Generator",
+      text: "Application that generates random passwords",
+    },
+    {
+      image: "https://img.freepik.com/premium-vector/quiz-logo-poll-questionnaire-icon-symbol_101884-1076.jpg?w=2000",
+      gitHub: "https://github.com/Charl1410/Quiz",
+      title: "Quiz",
+      text: "JavaScript quiz!",
+    },
+    {
+      image: "https://www.creativefabrica.com/wp-content/uploads/2021/03/31/weather-icon-illustration03-Graphics-10205167-1.jpg",
+      gitHub: "https://github.com/Charl1410/weather-dashboard",
+      title: "Weather Dashboard",
+      text: "Front end application that generates HTML cards for indivuals entered through inquirer",
+    }
 
 
   ]
