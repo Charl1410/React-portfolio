@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding:0;
+    
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.card {
+    margin:2%;
+    
+}
