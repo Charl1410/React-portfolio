@@ -21,7 +21,7 @@ function CreateCarousel() {
   
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          className="carousel-image2"
           src="/assets/images/languages.PNG"
           alt="Second slide"
         />
@@ -36,14 +36,17 @@ function CreateCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+          src="https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f6e93d250a6d04f4eae9f02_Backgrounds-WFU-thumbnail-(size).jpg"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3 className="carousel-font">Third slide label</h3>
+          <h3 className="carousel-font">More about me</h3>
           <p className="carousel-font">
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Before becoming interested in coding I got my degree in psychology from the University of Sussex. In my free time I 
+            love to go bouldering, going to the gym and going out for coffee! As a create persion I am very passionate about UI therefore, I am really enjoying using react.
+            To see some of the projects I have donr throughout this course check our my porfolio page.
+            
           </p>
         </Carousel.Caption>
       </Carousel.Item>
