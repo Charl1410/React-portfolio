@@ -1,23 +1,25 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Memoji from './Memoji'
 
 function CreateCarousel() {
   return (
-    <Carousel>
+    <Carousel className="Carousel">
       <Carousel.Item>
         <img
-          className="d-block w-75"
-          src="https://d3n817fwly711g.cloudfront.net/uploads/2014/07/Basic-org-chart-1-1024x738.png"
+          className="d-block w-100"
+          src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
           alt="First slide"
         />
+        <Memoji />
         <Carousel.Caption>
-          <h3 className="carousel-font">First slide label</h3>
-          <p className="carousel-font">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 className="carousel-font">Hey i'm Charlotte</h3>
+          <p className="carousel-font">I am currently studying web development at the University of Birmingham!</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-75"
-          src="https://cdn-icons-png.flaticon.com/512/2471/2471610.png"
+          className="d-block w-100"
+          src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
           alt="Second slide"
         />
 
@@ -28,8 +30,8 @@ function CreateCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-75"
-          src="https://img.freepik.com/premium-vector/quiz-logo-poll-questionnaire-icon-symbol_101884-1076.jpg?w=2000"
+          className="d-block w-100"
+          src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
           alt="Third slide"
         />
 

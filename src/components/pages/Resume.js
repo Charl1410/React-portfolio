@@ -4,9 +4,8 @@ export default function Resume() {
   return (
     <div>
       <h1>Resume</h1>
-      <p>
-        This is the resume page
-      </p>
+      <a href="../../public/photo.PNG" download>Download PDF</a>
+
     </div>
   );
 }

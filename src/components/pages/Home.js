@@ -4,13 +4,13 @@ import CreateCarousel from '../Carousel'
 
 export default function AboutMe() {
   return (
-    <div>
+    <div className="home-container">
           <h1>About me title</h1>
           <p>
             I am cool
           </p>
 
-          <div>
+          <div className="carousel-container">
             <CreateCarousel />
           </div>
 
