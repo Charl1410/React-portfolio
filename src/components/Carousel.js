@@ -7,7 +7,7 @@ function CreateCarousel() {
       <Carousel.Item>
         <img
           className="d-block w-100"
-          src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+          src="/assets/images/photo.PNG"
           alt="First slide"
         />
         <Memoji />

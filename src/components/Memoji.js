@@ -1,7 +1,7 @@
-import { Image } from 'react-bootstrap';
+import React from 'react';
 
 export default function Memoji() {
   return (
-    <Image src="../../public/photo.PNG" alt="memoji" />
+    <img src="../../public/photo.PNG" alt="memoji" />
   );
 }
