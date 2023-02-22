@@ -8,8 +8,9 @@ h1 {
     color: white;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 300%;
-
 }
+
+
 
 .grid {
     display: flex;
@@ -18,12 +19,21 @@ h1 {
     border-bottom: solid 2px lightgray;
     background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
+    background-size: cover; 
+
 
 }
 
 .nav {
     position: fixed;
     top: 0;
+}
+
+.navbar {
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
 }
 
 /* Homepage */
@@ -36,8 +46,14 @@ h1 {
     height:1000px;
 }
 
+
+
 .contact-container {
-    background-image: linear-gradient(to bottom, rgb(161, 217, 219), pink);
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .carousel-container {
@@ -49,11 +65,12 @@ h1 {
 
 .carousel-font {
     color:white;
+    font-size: 180%;
 }
 
 .carousel {
-    height:500px;
-    width:50%;
+    height:40%;
+    width:70%;
     margin:3%;
     padding:0%;
     
@@ -79,8 +96,8 @@ h1 {
 }
 
 .emoji {
-   height:200px;
-   width:200px;
+   height:400px;
+   width:400px;
    background-color: #dde9f8;
    border-radius: 100%;
    
@@ -98,8 +115,7 @@ h1 {
     justify-content: center;
     align-items: center;
     background-color: #dde9f8;
-    box-shadow: 10px 10px 10px 10px white;
-    width:288px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;     width:288px;
     border-bottom:solid 2px lightgray ;
 }
 
@@ -115,8 +131,11 @@ h1 {
 }
 
 .portfolio-banner {
-    background-color: rgb(162, 189, 239);
-    display: flex;
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+       display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
