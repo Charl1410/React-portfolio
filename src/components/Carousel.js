@@ -24,7 +24,7 @@ function CreateCarousel() {
         />
 
         <Carousel.Caption>
-          <h3 className="carousel-font">Second slide label</h3>
+          <h3 className="carousel-font">Here are some coding languages I am learning</h3>
           <p className="carousel-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </Carousel.Caption>
       </Carousel.Item>

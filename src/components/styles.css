@@ -5,6 +5,10 @@
 
 h1 {
     text-align: center;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 300%;
+
 }
 
 .grid {
@@ -13,6 +17,8 @@ h1 {
     flex-direction: row;
     border-bottom: solid 2px lightgray;
     background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    background-attachment: fixed;
+
 }
 
 .nav {
@@ -22,7 +28,14 @@ h1 {
 
 /* Homepage */
 
-.home-container, .contact-container {
+.home-container {
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-container {
     background-image: linear-gradient(to bottom, rgb(161, 217, 219), pink);
 }
 
@@ -52,7 +65,7 @@ h1 {
     justify-content: center;
     align-items: center;
     background-color: #dde9f8;
-    box-shadow: 10px 10px 10px 10px lightgray;
+    box-shadow: 10px 10px 10px 10px white;
     width:288px;
     border-bottom:solid 2px lightgray ;
 }

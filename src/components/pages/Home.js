@@ -5,9 +5,9 @@ import CreateCarousel from '../Carousel'
 export default function AboutMe() {
   return (
     <div className="home-container">
-          <h1>About me title</h1>
+          <h1>Hey, I'm Charlotte </h1>
           <p>
-            I am cool
+           
           </p>
 
           <div className="carousel-container">
