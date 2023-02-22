@@ -33,6 +33,7 @@ h1 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    height:1000px;
 }
 
 .contact-container {
@@ -51,10 +52,41 @@ h1 {
 }
 
 .carousel {
-    height:50%;
+    height:500px;
     width:50%;
     margin:3%;
+    padding:0%;
+    
 }
+
+.carousel-text {
+    margin-top:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.center {
+    border:solid 2px black ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.emoji {
+   height:200px;
+   width:200px;
+   background-color: #dde9f8;
+   border-radius: 100%;
+   
+
+    }
+
+
 
 /* Portfolio */
 
