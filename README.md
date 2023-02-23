@@ -31,10 +31,13 @@ All dependencies should alreadt be in the package.json file and installed throug
 To run this application locally all files and dependencies must be downloaded. Firstly run `npm run build` and finally `npm run start` and visit `localhost:3000` in your browser. 
 
 ## Screenshots 
-![]()
-![]()
-![]()
-![]()
+![](https://github.com/Charl1410/react-portfolio/blob/cbbb219875dd4dfd7495c193148f03e8b5471d60/website-screenshots/screenshots/Screenshot%202023-02-23%20at%2014.28.16.png)
+
+![](https://github.com/Charl1410/react-portfolio/blob/cbbb219875dd4dfd7495c193148f03e8b5471d60/website-screenshots/screenshots/Screenshot%202023-02-23%20at%2014.28.30.png)
+
+![](https://github.com/Charl1410/react-portfolio/blob/cbbb219875dd4dfd7495c193148f03e8b5471d60/website-screenshots/screenshots/Screenshot%202023-02-23%20at%2016.49.56.png)
+
+![](https://github.com/Charl1410/react-portfolio/blob/cbbb219875dd4dfd7495c193148f03e8b5471d60/website-screenshots/screenshots/Screenshot%202023-02-23%20at%2016.50.07.png)
 
 ## Contributors
 
