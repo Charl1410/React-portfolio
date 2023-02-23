@@ -1,5 +1,3 @@
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
 import React, { useState } from 'react';
 
 function FormGenerate() {
@@ -9,9 +7,9 @@ function FormGenerate() {
 const [name, setName] = useState('');
 //create a user state to hold the value of the email text holder
 const [email, setEmail] = useState('');
-
 //create a user state to hold the value of the message text holder
 const [message, setMessage] = useState('');
+
 
 //is this getting the value from the name text entry and saving this into the 
 //var set name in the hook
@@ -31,43 +29,41 @@ const [message, setMessage] = useState('');
   function handleNameBlur(event) {
     if (!name) {
     alert('Name field is required!');
-    event.target.focus();
     }
     }
 
+    function handleEmailBlur(event) {
+      if (!email) {
+      alert('Email field is required!');
+      }
+      }
+          
+      function handleMessageBlur(event) {
+      if (!message) {
+      alert('Message field is required!');
+      }
+      }
 
+      function handleSubmit(event) {
+        event.preventDefault();
+        
+        }
 
 
   return (
-    <div className='form-container'>
-    <Form >
-    <Form.Group className="form-box" controlId="formBasicPassword">
-        <Form.Label>Name</Form.Label>
-        <Form.Control placeholder="Name" />
-      </Form.Group>
-
-      <Form.Group className="form-box" controlId="formBasicEmail">
-        <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" placeholder="Enter your email" />
-        <Form.Text className="text-muted">
-          We'll never share your email with anyone else.
-        </Form.Text>
-
-      </Form.Group>
-      <Form.Group className="form-box message" controlId="formBasicEmail">
-        <Form.Label>Message</Form.Label>
-        <Form.Control type="message" placeholder="Enter message" />
-        <Form.Text className="text-muted">
-        </Form.Text>
-      </Form.Group>
-
-   
-      
-      <Button variant="primary" type="submit">
-        Submit
-      </Button>
-    </Form>
-    </div>
+    <form onSubmit={handleSubmit}>
+<label >Name:</label>
+<input type="text" id="name" name="name" value={name} onChange={handleNameChange} onBlur={handleNameBlur} required />
+<br />
+<label >Email:</label>
+<input type="email" id="email" name="email" value={email} onChange={handleEmailChange} onBlur={handleEmailBlur} required />
+<br />
+<label >Message:</label>
+<input  id="message" name="message" value={message} onChange={handleMessageChange} onBlur={handleMessageBlur} required />
+<br />
+<button type="submit">Submit</button>
+</form>
+    
   );
 }
 
