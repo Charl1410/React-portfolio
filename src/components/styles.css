@@ -38,6 +38,11 @@ h1 {
 
 }
 
+.my-name {
+    font-size: 150%;
+    
+}
+
 /* Homepage */
 
 .home-container {
@@ -207,11 +212,7 @@ ul {
 
 }
 
-@media only screen and (max-width: 600px) {
-    .card {
-      width:100%;
-    }
-  } 
+
 
 /* Contact me page */
 
@@ -235,3 +236,26 @@ Form {
 }
 
  
+@media only screen and (max-width: 600px) {
+    .card {
+      width:100%;
+    }
+
+    .carousel {
+        height:100%;
+        width:100%;
+    
+    }
+
+    .emoji {
+        height:200px;
+        width:200px;
+  } 
+
+  .carousel-font {
+    font-size: 130%;
+}
+
+
+
+}
