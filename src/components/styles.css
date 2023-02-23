@@ -10,13 +10,17 @@ h1 {
     font-size: 300%;
 }
 
+.grid, .navbar, .home-container, .contact-container, .portfolio-banner, .resume-container, .footer {
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+
+}
+
 
 
 .grid {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
     background-size: cover; 
 
@@ -29,7 +33,6 @@ h1 {
 }
 
 .navbar {
-    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
         background-repeat: no-repeat;
         background-size: cover;
 
@@ -38,25 +41,23 @@ h1 {
 /* Homepage */
 
 .home-container {
-    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    height:800px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height:1000px;
 }
 
 
 
 .contact-container {
     height:100%;
-    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 
-.carousel-container {
+.carousel-container, .card-3 {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -147,7 +148,6 @@ input {
 }
 
 .portfolio-banner {
-    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -159,7 +159,6 @@ input {
 
 /* resume page */
 .resume-container {
-    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,11 +168,15 @@ input {
 /* Footer */
 
 .footer {
-    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     padding:2%;
+}
+
+.icon-styling {
+    margin: 5%;
+    opacity:80%;
 }
 
 .icon {
@@ -203,7 +206,7 @@ ul {
     .card {
       width:100%;
     }
-  }
+  } 
 
 /* Contact me page */
 
@@ -222,3 +225,4 @@ Form {
     align-items: center;
 }
 
+ 
