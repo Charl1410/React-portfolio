@@ -14,7 +14,8 @@ function CreateCarousel() {
         <div class="carousel-text">
         <h3 className="carousel-font">Hey i'm Charlotte</h3>
           <p className="carousel-font">I am currently studying web development at the University of Birmingham!</p>
-          <p className="carousel-font">I am currently learning to create applications in React</p>
+          <p className="carousel-font">I am currently learning to create applications in React just like this one!  </p>
+          <p className="carousel-font">Check out my portfolio to see my projects and my resume to see what skills I have!</p>
         </div>
       </Carousel.Item>
 
