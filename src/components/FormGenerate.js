@@ -59,7 +59,7 @@ const [message, setMessage] = useState('');
 <input type="email" id="textbox-style" name="email" value={email} onChange={handleEmailChange} onBlur={handleEmailCheck} required />
 <br />
 <label >Message:</label>
-<input  id="textbox-style" name="message" value={message} onChange={handleMessageChange} onBlur={handleMessageCheck} required />
+<input  id="textbox-style " className="message-input" name="message" value={message} onChange={handleMessageChange} onBlur={handleMessageCheck} required />
 <br />
 <Button type="submit">Submit</Button>
 </form>

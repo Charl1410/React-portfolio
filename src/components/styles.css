@@ -52,7 +52,7 @@ h1 {
 .contact-container {
     height:100%;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 
 }
@@ -114,7 +114,7 @@ h1 {
 /* Contact me  */
 
 input {
-    width:50%;
+    width:75%;
     font-size: 16px;
     font-size: max(16px, 1em);
     font-family: inherit;
@@ -122,6 +122,11 @@ input {
     background-color: #fff;
     border: 2px solid var(--input-border);
     border-radius: 4px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  }
+
+  .message-input {
+    height:100px;
   }
 
 /* Portfolio */
@@ -209,6 +214,10 @@ ul {
   } 
 
 /* Contact me page */
+
+form {
+    height:500px;
+}
 
 .form-box {
     width:40%;
