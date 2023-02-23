@@ -30,18 +30,21 @@ const [message, setMessage] = useState('');
     if (!name) {
     alert('Name field is required!');
     }
+    return
     }
 
     function handleEmailCheck() {
       if (!email) {
       alert('Email field is required!');
       }
+      return
       }
           
       function handleMessageCheck() {
       if (!message) {
       alert('Message field is required!');
       }
+      return
       }
 
       function handleSubmit(event) {
