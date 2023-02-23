@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
 
 function FormGenerate() {
-
 
 //create a user state to hold the value of the name text holder 
 const [name, setName] = useState('');
@@ -53,15 +53,15 @@ const [message, setMessage] = useState('');
   return (
     <form onSubmit={handleSubmit}>
 <label >Name:</label>
-<input type="text" id="name" name="name" value={name} onChange={handleNameChange} onBlur={handleNameBlur} required />
+<input type="text" id="textbox-style" name="name" value={name} onChange={handleNameChange} onBlur={handleNameBlur} required />
 <br />
 <label >Email:</label>
-<input type="email" id="email" name="email" value={email} onChange={handleEmailChange} onBlur={handleEmailBlur} required />
+<input type="email" id="textbox-style" name="email" value={email} onChange={handleEmailChange} onBlur={handleEmailBlur} required />
 <br />
 <label >Message:</label>
-<input  id="message" name="message" value={message} onChange={handleMessageChange} onBlur={handleMessageBlur} required />
+<input  id="textbox-style" name="message" value={message} onChange={handleMessageChange} onBlur={handleMessageBlur} required />
 <br />
-<button type="submit">Submit</button>
+<Button type="submit">Submit</Button>
 </form>
     
   );
