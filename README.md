@@ -11,7 +11,7 @@
   
 
 ## Description
-This application is built using react and bootstrap to display information about me, my previous coding projects and my resume. 
+This application is built using react and bootstrap to display information about me, my previous coding projects and my resume. To naviage to the porfio, my resume and contact me page click through the navbar. 
 
 ## Initialisation
 
@@ -39,8 +39,6 @@ To run this application locally all files and dependencies must be downloaded. F
 
 ![](https://github.com/Charl1410/react-portfolio/blob/cbbb219875dd4dfd7495c193148f03e8b5471d60/website-screenshots/screenshots/Screenshot%202023-02-23%20at%2016.50.07.png)
 
-## Contributors
-
-
 
 ## Licensing 
+This project was not licenced.
