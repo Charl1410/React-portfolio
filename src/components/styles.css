@@ -175,6 +175,14 @@ input {
     padding: 3%;
 }
 
+.accordian {
+    margin-bottom: 1%;
+}
+
+.accordian-center {
+    text-align: center;
+}
+
 /* Footer */
 
 .footer {
@@ -194,7 +202,7 @@ input {
     width: 45px;
 }
 
-ul {
+.footer-icons {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -203,9 +211,12 @@ ul {
 
   li {
     list-style: none;
-    
-   
   }
+
+    
+
+
+  
 
 .card:hover {
     transform: scale(1.1);
