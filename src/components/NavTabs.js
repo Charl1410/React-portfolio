@@ -8,22 +8,22 @@ function NavTabs({ currentPage, handlePageChange }) {
     <>
       <Navbar className="navbar" bg="primary" variant="dark">
         <Container>
-        <Navbar.Brand className="my-name">Charlotte Griffin</Navbar.Brand>
+        <Navbar.Brand style={{ fontSize: '190%' }}>Charlotte Griffin</Navbar.Brand>
           <Navbar.Brand href="#home" 
           onClick={() => handlePageChange('Home')}
          
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>About me</Navbar.Brand>
+          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'} style={{ fontSize: '150%' }}>About me</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#portfolio"
+            <Nav.Link href="#portfolio" 
           onClick={() => handlePageChange('Portfolio')}
-          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</Nav.Link>
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} style={{ fontSize: '150%' }}>Portfolio</Nav.Link>
             <Nav.Link href="#contact"
           onClick={() => handlePageChange('Contact')}
-          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}style={{ fontSize: '150%' }}
         >Contact me</Nav.Link>
             <Nav.Link href="#resume"
           onClick={() => handlePageChange('Resume')}
-          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</Nav.Link>
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}style={{ fontSize: '150%' }}>Resume</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
