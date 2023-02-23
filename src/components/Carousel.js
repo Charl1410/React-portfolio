@@ -20,16 +20,19 @@ function CreateCarousel() {
 
   
       <Carousel.Item>
-        <img
-          className="carousel-image2"
-          src="/assets/images/languages.PNG"
-          alt="Second slide"
-        />
+          <div className="center">
 
-        <div class="carousel-text">
-        <h3 className="carousel-font">Here are some coding languages I am learning</h3>
-          <p className="carousel-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
+            <img
+              className="carousel-image2"
+              src="/assets/images/languages.PNG"
+              alt="Second slide"
+            />
+          </div>
+
+            <div class="carousel-text">
+            <h3 className="carousel-font">Here are some coding languages I am learning</h3>
+              <p className="carousel-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
       </Carousel.Item>
 
 

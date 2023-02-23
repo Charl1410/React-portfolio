@@ -26,19 +26,19 @@ const [message, setMessage] = useState('');
   }
 
 //tests the triggering even and if name has not been entered then alerts the user and draws focus to entery
-  function handleNameBlur(event) {
+  function handleNameCheck(event) {
     if (!name) {
     alert('Name field is required!');
     }
     }
 
-    function handleEmailBlur(event) {
+    function handleEmailCheck() {
       if (!email) {
       alert('Email field is required!');
       }
       }
           
-      function handleMessageBlur(event) {
+      function handleMessageCheck() {
       if (!message) {
       alert('Message field is required!');
       }
@@ -53,13 +53,13 @@ const [message, setMessage] = useState('');
   return (
     <form onSubmit={handleSubmit}>
 <label >Name:</label>
-<input type="text" id="textbox-style" name="name" value={name} onChange={handleNameChange} onBlur={handleNameBlur} required />
+<input type="text" id="textbox-style" name="name" value={name} onChange={handleNameChange} onBlur={handleNameCheck} required />
 <br />
 <label >Email:</label>
-<input type="email" id="textbox-style" name="email" value={email} onChange={handleEmailChange} onBlur={handleEmailBlur} required />
+<input type="email" id="textbox-style" name="email" value={email} onChange={handleEmailChange} onBlur={handleEmailCheck} required />
 <br />
 <label >Message:</label>
-<input  id="textbox-style" name="message" value={message} onChange={handleMessageChange} onBlur={handleMessageBlur} required />
+<input  id="textbox-style" name="message" value={message} onChange={handleMessageChange} onBlur={handleMessageCheck} required />
 <br />
 <Button type="submit">Submit</Button>
 </form>
