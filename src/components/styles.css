@@ -16,7 +16,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    border-bottom: solid 2px lightgray;
     background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
     background-size: cover; 
@@ -49,6 +48,7 @@ h1 {
 
 
 .contact-container {
+    height:100%;
     background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -122,11 +122,10 @@ h1 {
     align-items: center;
     background-color: #dde9f8;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;     width:288px;
-    border-bottom:solid 2px lightgray ;
 }
 
 .card-button {
-    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .card-body, .resume-container{
@@ -159,7 +158,11 @@ h1 {
 /* Footer */
 
 .footer {
-    margin: 2%;
+    background-image: url(https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2%;
 }
 
 .icon {
@@ -198,7 +201,6 @@ ul {
 }
 
 .form-container {
-    border: 2px solid black;
     padding: 2%;
 }
 
