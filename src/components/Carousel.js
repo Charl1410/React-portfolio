@@ -7,7 +7,7 @@ function CreateCarousel() {
         <div className="center">
         <img
           className="emoji"
-          src="./images/photo.PNG"
+          src="./assets/images/photo.PNG"
           alt="First slide"
         />
         </div>
