@@ -1,13 +1,14 @@
 # React portfolio 
 
+https://charl1410.github.io/react-portfolio
+
  ## Table of contents
 
   * [Description](#Description)
   * [Instillation](#Instillation)
   * [Usage](#Usage)
   * [Contributors](#Contributing)
-  * [Licence](#License)
-  * [Questions](#Questions)
+  * [Future Development](#Future-Development)
   
 
 ## Description
@@ -28,7 +29,7 @@ This application is built using react and bootstrap to display information about
 All dependencies should alreadt be in the package.json file and installed through running `npm i` in the terminal.
 
 ## Usage
-To run this application locally all files and dependencies must be downloaded. Firstly run `npm run build` and finally `npm run start` and visit `localhost:3000` in your browser. 
+To run this application locally all files and dependencies must be downloaded. Firstly run `npm run build` and finally `npm run start` and visit `localhost:3000` in your browser or visit https://charl1410.github.io/react-portfolio/ to visit the deployed application!
 
 ## Screenshots 
 ![](https://github.com/Charl1410/react-portfolio/blob/cbbb219875dd4dfd7495c193148f03e8b5471d60/website-screenshots/screenshots/Screenshot%202023-02-23%20at%2014.28.16.png)
@@ -39,6 +40,10 @@ To run this application locally all files and dependencies must be downloaded. F
 
 ![](https://github.com/Charl1410/react-portfolio/blob/cbbb219875dd4dfd7495c193148f03e8b5471d60/website-screenshots/screenshots/Screenshot%202023-02-23%20at%2016.50.07.png)
 
+# Future Development
+
+* Fixing resonsivness at different screen sizes on some of the pages 
+* Working on UI for the acordian in the resume page 
 
 ## Licensing 
 This project was not licenced.

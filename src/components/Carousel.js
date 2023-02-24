@@ -51,8 +51,8 @@ function CreateCarousel() {
               <h3 className="carousel-font">More about me</h3>
               <p className="carousel-font">
                 Before becoming interested in coding I got my degree in psychology from the University of Sussex. In my free time I 
-                love to go bouldering, going to the gym and going out for coffee! As a create persion I am very passionate about UI therefore, I am really enjoying using react.
-                To see some of the projects I have donr throughout this course check our my porfolio page.
+                love to go bouldering, going to the gym and going out for coffee! As a create person I am very passionate about UI therefore, I am really enjoying using react.
+                To see some of the projects I have done throughout this course check out my porfolio page.
                 
               </p>
             </Carousel.Caption>
