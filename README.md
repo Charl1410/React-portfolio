@@ -52,7 +52,7 @@ To run this application locally all files and dependencies must be downloaded. F
 
 ![](https://github.com/Charl1410/react-portfolio/blob/cbbb219875dd4dfd7495c193148f03e8b5471d60/website-screenshots/screenshots/Screenshot%202023-02-23%20at%2016.50.07.png)
 
-# Future Development
+## Future Development
 
 * Fixing resonsivness at different screen sizes on some of the pages 
 * Working on UI for the acordian in the resume page 
