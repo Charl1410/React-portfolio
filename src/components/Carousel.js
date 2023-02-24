@@ -25,7 +25,7 @@ function CreateCarousel() {
 
             <img
               className="carousel-image2"
-              src="/assets/images/languages.PNG"
+              src="./assets/images/languages.PNG"
               alt="Second slide"
             />
           </div>
