@@ -1,13 +1,25 @@
 # React portfolio 
 
-https://charl1410.github.io/react-portfolio
+<div align="center">
+<table>
+<tbody>
+<td align="center">
+<img width="2000" height="0"><br>
+<sub>https://charl1410.github.io/react-portfolio
+</sub><br>
+<img width="2000" height="0">
+</td>
+</tbody>
+</table>
+</div>
 
  ## Table of contents
 
-  * [Description](#Description)
-  * [Instillation](#Instillation)
-  * [Usage](#Usage)
-  * [Contributors](#Contributing)
+  * [Description](##Description)
+  * [Instillation](##Instillation)
+  * [Usage](##Usage)
+  * [Screenshots](##Screenshots)
+  * [Contributors](##Contributors)
   * [Future Development](#Future-Development)
   
 
